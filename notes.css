@@ -1,0 +1,346 @@
+#errorMessage
+{
+	color: red;
+	font-weight: bold;
+}
+
+.noteboard
+{
+	width: 100%;
+	height: 100%;
+}
+
+.stickie
+{
+	left: 100px;
+	top: 100px;
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	border-radius: 2px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.pink
+{
+	background-color: pink;
+	border: 2px solid purple;
+	box-shadow: 1px 1px blue;
+}
+
+.red
+{
+	background-color: red;
+	border: 2px solid brown;
+	box-shadow: 1px 1px blue;
+}
+
+.blue
+{
+	background-color: blue;
+	border: 2px solid red;
+	box-shadow: 1px 1px purple;
+}
+
+.green
+{
+	background-color: green;
+	border: 2px solid yellow;
+	box-shadow: 1px 1px orange;
+}
+
+.purple
+{
+	background-color: purple;
+	border: 2px solid pink;
+	box-shadow: 1px 1px gray;
+}
+
+.orange
+{
+	background-color: orange;
+	border: 2px solid brown;
+	box-shadow: 1px 1px red;
+}
+
+.brown
+{
+	background-color: brown;
+	border: 2px solid orange;
+	box-shadow: 1px 1px tan;
+}
+
+.tan
+{
+	background-color: tan;
+	border: 2px solid gray;
+	box-shadow: 1px 1px brown;
+}
+
+.yellow
+{
+	background-color: yellow;
+	border: 2px solid green;
+	box-shadow: 1px 1px pink;
+}
+
+.gray
+{
+	background-color: gray;
+	border: 2px solid tan;
+	box-shadow: 1px 1px red;
+}
+
+.hamburger
+{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	float: right;
+	background-image: url(./images/hamburger.svg);
+	cursor: pointer;
+}
+
+.move
+{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	background-image: url(./images/move.svg);
+	cursor: pointer;
+}
+
+.addimage
+{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+	float: bottom;
+	background-image: url(./images/addimage.svg);
+	cursor: pointer;
+}
+
+.resize
+{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+	float: right;
+	background-image: url(./images/resize.svg);
+	cursor: pointer;
+}
+
+.note
+{
+	height: 100%;
+	width: 100%;
+	vertical-align: top;
+}
+
+.dropHightlight
+{
+	border: 2px solid purple !important;
+}
+
+#noteboardMenu
+{
+	position: absolute;
+	float: right;
+	top: 15px;
+	right: 15px;
+	border: 1px solid black;
+	background-color: lightgray;
+	display: none;
+	z-index: 99999999;
+}
+
+#stickieMenu
+{
+	position: absolute;
+	border: 1px solid black;
+	background-color: lightgray;
+	display: none;
+	z-index: 9999999;
+}
+
+.addnote
+{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	height: 16px;
+	width: 16px;
+	background-color: lightgray;
+	z-index: 9999999;
+}
+
+#instructions
+{
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	height: 16px;
+	width: 16px;
+	background-color: lightgray;
+	z-index: 9999999;
+}
+
+#apphamburger
+{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	float: right;
+	background-color: lightgray;
+	z-index: 9999999;
+}
+
+.logout
+{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	float: right;
+	background-color: lightgray;
+	z-index: 9999999;
+}
+
+#imageUpload
+{
+	position: relative;
+	width: 400px;
+	background-color: lightgray;
+	display: none;
+	border: 1px solid black;
+	z-index: 9999999;
+}
+
+#imagePreview
+{
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+	margin: 5px;
+	border: 1px solid black;
+	height: 100px;
+	width: 100%;
+}
+
+#imageElement
+{
+	max-height: 90%;
+	max-width: 90%;
+	margin: 5px;
+}
+
+.noteImage
+{
+	height: 100px;
+	width: 100px;
+	border: 0;
+	display: none;
+}
+
+.imageUpload
+{
+	width:97%;
+}
+
+.textCenter
+{
+	text-align: center;
+}
+
+.loginHeader
+{
+	font-weight: bold;
+	text-align: center;
+	color: red;
+	font-size: xx-large;
+}
+
+.loginSubheader
+{
+	text-align: center;
+	color: green;
+	font-size: x-large;
+}
+
+.tableCenter
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.author
+{
+	text-align: center;
+	color: blue;
+	font-size: large;
+}
+
+.smallFont
+{
+	font-size: small;
+}
+
+.noteContents
+{
+	margin: 20px 5px 20px 5px;
+	display: block;
+	min-width: 5px;
+	position: relative;
+}
+
+#mask
+{
+	display: block;
+	z-index: 999999999;
+	background-color: #222222bb;
+	margin: 0;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#instructionsDiv
+{
+	width: 50%;
+	border: 1px solid black;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 20px;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.exampleButton
+{
+	background-color: lightgray;
+}
+
+.deleteImageDefault
+{
+	display: none;
+}
+
+.deleteImageShow
+{
+	display: inline;
+}

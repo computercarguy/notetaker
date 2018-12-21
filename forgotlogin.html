@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>NoteTaker: A Code Test By Eric Ingamells</title>
+	<link rel="stylesheet" type="text/css" href="notes.css" >
+	<script src="scripts.js"></script>
+</head>
+<body>
+	<table class="tableCenter">
+		<tr>
+			<td class="loginHeader">NoteTaker:</td>
+		</tr>
+		<tr>
+			<td class="loginSubheader">Retrieve Login</td>
+		</tr>
+		<tr>
+			<td class="author">By Eric Ingamells</td>
+		</tr>
+	</table>
+	<br />
+	<form>
+		<table class="tableCenter">
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" id="email" required/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="2"><input type="button" value="Send Reset Email" onclick="sendEmail()"/></td>
+			</tr>
+			<tr>
+			  <td id="sentMessage" colspan="2"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

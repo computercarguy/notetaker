@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>NoteTaker: A Code Test By Eric Ingamells</title>
+	<link rel="stylesheet" type="text/css" href="notes.css" >
+	<script src="scripts.js"></script>
+	<script src="md5hash.js"></script>
+</head>
+<body onload="setupLoginPage()">
+	<table class="tableCenter">
+		<tr>
+			<td class="loginHeader">NoteTaker:</td>
+		</tr>
+		<tr>
+			<td class="loginSubheader">A Code Test</td>
+		</tr>
+		<tr>
+			<td class="author">By Eric Ingamells</td>
+		</tr>
+	</table>
+	<br />
+
+	<noscript>
+		JavaScript needs to be enabled to run this application.
+	</noscript>
+
+	<form>
+		<table class="tableCenter">
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" id="username" required onchange="enterPressed" /></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" id="password" required onchange="enterPressed" /></td>
+			</tr>
+			<tr>
+				<td class="textCenter"><input type="button" value="Log on" id="logon" onclick="login()"/></td>
+				<td class="textCenter"><a href="accountPage.php?create=true" class="smallFont">Create Account</a></td>
+			</tr>
+			<tr>
+			  <td id="errorMessage"></td>
+			</tr>
+			<!--  Add back in for V2
+			<tr>
+				<td></td>
+				<td colspan="2" class="textCenter"><a href="forgotlogin.html" class="smallFont">Forgot Password</a></td>
+			</tr>
+				-->
+		</table>
+	</form>
+</body>
+</html>
